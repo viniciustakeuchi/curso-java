@@ -1,4 +1,4 @@
-package curso_programacao;
+package teste_saida;
 
 import java.util.Locale;
 
@@ -19,7 +19,7 @@ public class Main {
 		System.out.printf("%.4f%n",x);
 		System.out.printf("RESULTADO = %.2f metros%n", x);
 		System.out.printf("%s tem %d anos e recebe $%.2f reais.%n", nome, idade, renda);
-		System.out.printf("Product:%n%s, which price is $ %.2f%n %s, which price is $ %.2f%n Record: %d years old, code %d and gender: %c%n Measue with eight decimal places: %.8f%n rouded *three eight decimal places): %.3f%n US decimal point: %.3f",product1, price1, product2, price2, age, code, gender, measure,measure,measure);
+		System.out.printf("Product:%n%s, which price is $ %.2f%n %s, which price is $ %.2f%nRecord: %d years old, code %d and gender: %c%nMeasue with eight decimal places: %.8f%nRouded *three eight decimal places): %.3f%nUS decimal point: %.3f",product1, price1, product2, price2, age, code, gender, measure,measure,measure);
 
 	}
 
